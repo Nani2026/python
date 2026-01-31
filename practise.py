@@ -64,8 +64,19 @@ print(type(z))
 # del a[-1]
 # print(a)
 
-a=[20,1,3,4,5,3]
-a.remove(20)
-a.pop()
-a.clear()
-print(a)
+# a=[20,1,3,4,5,3]
+# a.remove(20)
+# a.pop()
+# a.clear()
+# print(a)
+
+# a=int(input("Enter the first number: "))
+# b=float(input("Enter the second number: "))
+# module=a%b
+# print(module)
+
+#--------------->Loop----------------->
+i= 100
+while i>=200:
+    print(i)
+    i += 1
