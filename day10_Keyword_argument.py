@@ -15,11 +15,11 @@
 # print(test(1, 2))
 # print(test(1, 2, 3, 4))
 
-def main(*args)
-    check_num = 0
-    if check_num > args:
-        return largest
-    else check_num < args:
-        return lowest 
-print(main(1,2,3,4,5))
+# def main(*args):
+#     check_num = 0
+#     if check_num > args:
+#         return largest
+#     else check_num < args:
+#         return lowest 
+# print(main(1,2,3,4,5))
     
