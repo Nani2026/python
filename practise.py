@@ -76,7 +76,119 @@ print(type(z))
 # print(module)
 
 #--------------->Loop----------------->
-i= 100
-while i>=200:
-    print(i)
-    i += 1
+# i= 100
+# while i>=200:
+#     print(i)
+#     i += 1
+    
+    
+# def add(*args):
+#     total = 0
+#     for n in args:
+#         total += n
+#     return total
+
+# print(add(1, 2))
+    
+
+#Write a function that takes one number and returns its square.
+# def square(num):
+#     return num * num
+
+# n = int(input("Enter one number: "))
+# print(square(n))
+
+#Write a function that takes two numbers and returns their sum.
+# def add(a,b):
+#     return a+b
+# a= int(input("Enter the first number: "))
+# b= int(input("Enter the second number: "))
+# print(add(a,b))
+
+# Write a function that prints “Hello World”.
+
+# Write a function that takes one number and returns its square.
+
+# Write a function that takes two numbers and returns their sum.
+
+# Write a function that checks if a number is even or odd.
+
+# Write a function that takes a name and prints
+# Write a function that takes a list and returns the largest number.
+
+# Write a function that counts how many vowels are in a string.
+
+# Write a function that uses *args to find the sum of any number of values.
+
+# Write a function that takes a number and returns factorial.
+
+# Write a function that checks if a string is a palindrome.
+# Write a function that accepts any number of arguments and returns their average.
+
+# Write a function that accepts **kwargs and prints
+# key : value format.
+
+# Write a function that takes *args and returns maximum value.
+
+# Write a function that accepts student details using **kwargs and prints them nicely.
+# Write a function that returns second largest number from a list.
+
+# Write a function that removes duplicate values from a list.
+
+# Write a recursive function to find Fibonacci series.
+
+# Write a function that checks whether a number is prime.
+
+# Write a function that takes a sentence and returns word count.
+
+# Write a function that uses another function inside it (nested function).
+
+
+# ----------------------->Write a function that checks if a number is even or odd.-------->
+# def check(a):
+#     if a % 2 == 0:
+#         print("even")
+#     else:
+#         print("odd")
+# num= int(input("the number is: "))
+# print(check(num))
+
+#--------------------++----------------------------->
+# Write a function that takes a name and prints
+# def name():
+#     return name
+# a=str(input("My name is : "))
+# print(name(a))
+
+#Write a function that prints “Hello World”.
+# def greet():
+#     print("Hello world!!!")
+# greet()
+
+#Write a function that takes a list and returns the largest number.
+# def check(large_num):
+#     return max(large_num)
+# list1 = [1,2,3,4,5,6,7,8,9,10]
+# print(check(list1))
+
+# a=int(input("Enter your age : "))
+# if a > 20:
+#      print("You are eligible for vote.")
+# else:
+#     print("you are not eligible for vote")
+
+# list = [1,3,30,40,50,60,100]
+# list.append(70)
+# print(list)
+# list = [1,3,30,40,50,60,100]
+# list.insert(12,7)
+# print(list)
+# list = [1,3,30,40,50,60,100]
+# list.remove(40)
+# print(list)
+# list = [1,3,30,40,50,60,100]
+# list.pop(3)
+# print(list)
+list1 = [1,3,2,6,8,7,30,40,1010,60,100]
+total=sum(list1)
+print(total)
