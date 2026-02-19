@@ -1,0 +1,41 @@
+# class Parent():
+#     def __init__(self):
+#         print("I am from Parent class.")
+#     a=100
+#     data=1
+# class Child(Parent):
+#     def __init__(self):
+#         print("I am form child class.")
+#         Parent.__init__(self)
+#     a=1
+#     data=3
+# obj=Child()
+
+# class Employee():
+#     name="ambika"
+#     employee_id=100
+#     basic_salary=25000
+#     def Staff(Employee):
+#         print(obj.name)
+    
+# obj=Employee()
+# print(obj.Employee)
+
+class Account():
+    account_number=12344
+    balance=30000
+    
+    def __init_display_account_details(self):
+         print("Account Number:", self.account_number)
+         print("Balance:", self.balance)
+class Saving_account(Account):
+    interest =10
+    def calculate_interest(self):
+        interest = self.balance * self.interest_rate / 100
+        print("Interest:", interest)
+
+
+obj = Saving_account()
+obj.display_account_details()
+obj.calculate_interest()
+    

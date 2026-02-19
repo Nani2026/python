@@ -1,0 +1,6 @@
+
+class Test():
+    a=10
+    data="ambika"
+obj=Test()
+print(obj.data)

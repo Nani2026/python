@@ -188,7 +188,30 @@ print(type(z))
 # print(list)
 # list = [1,3,30,40,50,60,100]
 # list.pop(3)
-# print(list)
-list1 = [1,3,2,6,8,7,30,40,1010,60,100]
-total=sum(list1)
-print(total)
+# # print(list)
+# list1 = [1,3,2,6,8,7,30,40,1010,60,100]
+# total=sum(list1)
+# print(total)
+
+
+
+#------------------------>>>>>>>>>>>>>>>>>>------------------------
+# def a1(name,age):
+#     print(name,age)
+# name=input("Enter your name: ")
+# age=int(input("Enter your age: "))
+# a1(name, age)
+
+
+# def al(sathi):
+#     print(sathi)
+
+# al('manju')
+
+
+
+#Write a function that takes a string and returns its length.
+def check_length(name):
+    return len(name)
+nam=input("Enter your name: ")
+print(check_length(nam))
